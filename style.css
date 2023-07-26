@@ -1,0 +1,97 @@
+body {
+    font-family: 'Karla', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    background: #f5f5f593;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+div.search {
+    width: 700px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.control {
+    border: 2px solid rgba(194, 194, 194, 0.726);
+    border-radius: 30px;
+    width: 600px;
+    height: 40px;
+    outline-color: #4caf50;
+}
+
+.btn {
+    color: white;
+    background: #4caf50;
+    border: 2px solid rgba(194, 194, 194, 0.486);
+    border-radius: 30px;
+    width: 80px;
+    height: 40px;
+}
+
+.btn:hover {
+    background-color: #629764;
+}
+
+.ddsmoothmenu {
+    height: 55px;
+    font-size: 13px;
+    background-color: #4caf50;
+    width: 100%;
+
+
+}
+
+ul li {
+    display: inline-block;
+    line-height: 63px;
+    margin: 0 8px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    background: white;
+    width: 800px;
+    position: fixed;
+    margin-left: 300px;
+    overflow-y:auto;
+}
+
+aside {
+    color: whitesmoke;
+    background: #4caf50;
+    height: 100%;
+    margin-top: -10px;
+    position: fixed;
+    padding-right: 40px;
+    overflow: scroll;
+    text-decoration: none;
+}
+
+.pic1 {
+    width: 800px;
+}
+.aside{
+    margin-left: 20px;
+}
+
+.nav-item{
+    list-style: none;
+}
+
+div#nav li a{   
+    color: white;
+    text-decoration: none;
+    height: 50px;
+    display:block;
+
+    
+}
